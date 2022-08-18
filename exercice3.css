@@ -1,0 +1,39 @@
+* { box-sizing:border-box; }
+
+/* PARENT CONTAINER */
+section {
+  height : 105px;
+  width: 700px;
+  border: 1px solid red;
+  display:flex; 
+  /* display:flex on the parent container */
+  flex-direction: row;
+  /* flex-direction: row DEFAULT */
+  justify-content:;
+  align-items: flex-start;
+/*   align items in the container along the cross axis (y axis). 
+  DEFAULT STRECH */
+  flex-wrap:wrap;
+  align-content: space-between;
+  padding: 5px;
+  margin: 2px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.div1 {
+  border: 1px solid blue;
+  background-color: royalblue;
+  width: 30%;
+  padding: 1px;
+}
+
+.div2 {
+  border: 1px solid red;
+  background-color: #ffd6cc;
+  width: 30%;
+  padding: 1px;
+/* See what happens if width: 80%;   */
+  align-self: flex-end
+  
+}
